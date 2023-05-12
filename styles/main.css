@@ -1611,6 +1611,10 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
 }
 
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
 .flex-col{
   flex-direction: column !important;
 }
@@ -2352,6 +2356,11 @@ video {
   padding-right: 4px !important;
 }
 
+.px-\[px\]{
+  padding-left: px !important;
+  padding-right: px !important;
+}
+
 .pb-3{
   padding-bottom: 0.75rem !important;
 }
@@ -2999,6 +3008,10 @@ video {
     height: 20%px !important;
   }
 
+  .lg\:h-\[300px\]{
+    height: 300px !important;
+  }
+
   .lg\:max-h-\[100px\]{
     max-height: 100px !important;
   }
@@ -3204,6 +3217,12 @@ video {
     margin-bottom: calc(0px * var(--tw-space-y-reverse)) !important;
   }
 
+  .lg\:space-x-\[100\] > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0 !important;
+    margin-right: calc(100 * var(--tw-space-x-reverse)) !important;
+    margin-left: calc(100 * calc(1 - var(--tw-space-x-reverse))) !important;
+  }
+
   .lg\:place-self-end{
     place-self: end !important;
   }
@@ -3312,6 +3331,30 @@ video {
 
   .lg\:pt-\[80px\]{
     padding-top: 80px !important;
+  }
+
+  .lg\:pt-\[30px\]{
+    padding-top: 30px !important;
+  }
+
+  .lg\:pt-\[20px\]{
+    padding-top: 20px !important;
+  }
+
+  .lg\:pb-\[100\]{
+    padding-bottom: 100 !important;
+  }
+
+  .lg\:pt-\[-20px\]{
+    padding-top: -20px !important;
+  }
+
+  .lg\:pt-\[-50px\]{
+    padding-top: -50px !important;
+  }
+
+  .lg\:pt-\[\]{
+    padding-top:  !important;
   }
 
   .lg\:text-start{

@@ -9,111 +9,116 @@
   </head>
   <body>
     <header
-      class="w-full border-b-[1px] max-h-[70px] lg:max-h-[100px] lg:border-none border-[#E9E9E9] fixed inset-0 z-[9999] backdrop-blur-md bg-backg/50"
+    class="w-full border-b-[1px] max-h-[70px] lg:max-h-[100px] lg:border-none border-[#E9E9E9] fixed inset-0 z-[9999] backdrop-blur-md bg-backg/50"
+  >
+    <div
+      class="w-[95%] lg:w-[80%] mx-auto flex items-center justify-between py-[15px] lg:py-[30px] lg:border-b-[1px] border-[#E9E9E9]"
+    >
+      <div class="text-clear w-[80px] lg:w-[100px]">
+        <img src="/assets/images/logo.png" alt="logo" class="w-full h-full" />
+      </div>
+      <div class="flex items-center">
+        <nav class="hidden lg:block">
+          <ul
+            class="flex items-center space-x-[40px] text-[15px] font-medium leading-[24px] text-dark font-syne"
+          >
+            <li>
+              <img class="" src="/assets/images/hover.png" alt="" />
+            </li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/abouts-us.html">About</a></li>
+            <li><a href="/pages/portfolio.html">Work</a></li>
+            <li><a href="/pages/blog.html">News</a></li>
+            <li class="pr-[24px]">
+              <a href="/pages/contact-us.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="hamburger" class="w-[40px] h-[40px]">
+          <img
+            class="h-full w-full"
+            src="/assets/images/menu_icon.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div
+      id="mobile-nav"
+      class="lg:hidden w-full h-screen fixed top-0 right-0 left-[-100%] backdrop-blur-md duration-500 bg-backg/50"
     >
       <div
-        class="w-[95%] lg:w-[80%] mx-auto flex items-center justify-between py-[15px] lg:py-[30px] lg:border-b-[1px] border-[#E9E9E9]"
+        class="w-[250px] h-full backdrop-blur-md bg-black/50 p-6 flex flex-col space-y-[50px]"
       >
-        <div class="text-clear w-[80px] lg:w-[100px]">
-          <img src="/assets/images/logo.png" alt="logo" class="w-full h-full" />
-        </div>
-        <div class="flex items-center">
-          <nav class="hidden lg:block">
-            <ul
-              class="flex items-center space-x-[40px] text-[15px] font-medium leading-[24px] text-dark font-syne"
-            >
-              <li>
-                <img class="" src="/assets/images/hover.png" alt="" />
-              </li>
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/pages/abouts-us.html">About</a></li>
-              <li><a href="/pages/portfolio.html">Work</a></li>
-              <li><a href="/pages/blog.html">News</a></li>
-              <li class="pr-[24px]">
-                <a href="/pages/contact-us.html">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <div id="hamburger" class="w-[40px] h-[40px]">
+        <div class="flex items-center justify-between">
+          <div class="text-clear w-[80px] lg:w-[100px]">
             <img
-              class="h-full w-full"
-              src="/assets/images/menu_icon.png"
-              alt=""
+              src="/assets/images/logo.png"
+              alt="logo"
+              class="w-full h-full"
             />
           </div>
-        </div>
-      </div>
-
-      <!-- Mobile Nav -->
-      <div
-        id="mobile-nav"
-        class="lg:hidden w-full h-screen fixed top-0 right-0 left-[-100%] backdrop-blur-md duration-500 bg-backg/50"
-      >
-        <div
-          class="w-[250px] h-full backdrop-blur-md bg-black/50 p-6 flex flex-col space-y-[50px]"
-        >
-          <div class="flex items-center justify-between">
-            <div class="text-clear w-[80px] lg:w-[100px]">
-              <img
-                src="/assets/images/logo.png"
-                alt="logo"
-                class="w-full h-full"
-              />
-            </div>
-            <span
-              id="close-btn"
-              class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black top-absolute[20px] right-[20px] p-2"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="white"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </span>
-          </div>
-
-          <!-- Navigations -->
-          <nav class="">
-            <ul
-              class="flex flex-col space-y-4 text-[15px] font-medium leading-[24px] text-dark font-syne"
+          <span
+            id="close-btn"
+            class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black top-absolute[20px] right-[20px] p-2"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="white"
+              class="w-6 h-6"
             >
-              <li>
-                <a
-                  class="btn w-full bg-white text-black rounded-[10px]"
-                  href="/index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="btn w-full bg-white text-black rounded-[10px]">
-                <a href="/pages/abouts-us.html">About</a>
-              </li>
-              <li class="btn w-full bg-white text-black rounded-[10px]">
-                <a href="/pages/portfolio.html">Work</a>
-              </li>
-              <li class="btn w-full bg-white text-black rounded-[10px]">
-                <a href="/pages/blog.html">News</a>
-              </li>
-              <li
-                class="btn w-full bg-white text-black rounded-[10px] pr-[24px]"
-              >
-                <a href="/pages/contact-us.html">Contacts</a>
-              </li>
-            </ul>
-          </nav>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </span>
         </div>
+
+        <!-- Navigations -->
+        <nav class="">
+          <ul
+            class="flex flex-col space-y-4 text-[15px] font-medium leading-[24px] text-dark font-syne"
+          >
+            <li>
+              <a
+                class="btn w-full bg-white text-black rounded-[10px]"
+                href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a 
+              class="btn w-full bg-white text-black rounded-[10px]" href="/pages/abouts-us.html">About</a>
+            </li>
+
+            <li>
+              <a 
+              class="btn w-full bg-white text-black rounded-[10px]"
+               href="/pages/portfolio.html">Work</a>
+            </li>
+            
+            <li>
+              <a 
+              class="btn w-full bg-white text-black rounded-[10px]" href="/pages/blog.html">News</a>
+            </li>
+            <li>
+              <a 
+              class="btn w-full bg-white text-black rounded-[10px] pr-[24px]" href="/pages/contact-us.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
     <main class="mt-[70px] lg:mt-[100px]">
-      <section class="pb-[70px] pt-[40px]">
+      <section class="w-[95%] px-[10px] lg:w-[80%]  pb-[70px] pt-[40px]">
         <div class="flex flex-col items-center justify-center space-y-6">
           <h1 class="font-bold font-syne lg:text-[84px] text-[40px]">404</h1>
           <h5 class="font-syne font-bold lg:text-[28px] text-[20px]">
@@ -134,7 +139,7 @@
       </section>
     </main>
 
-    <footer class="block w-full">
+    <footer class="block w-full relative">
       <div class="bg-black">
         <div
           class="w-[95%] lg:w-full mx-auto flex flex-col items-center justify-center space-y-6 py-[50px] lg:py-[100px]"
@@ -282,6 +287,42 @@
         >
           Copyright © Portlight | Designed by VictorFlow - Powered by Webflow.
         </p>
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute top-[40px] left-[80px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute top-[50px] right-[80px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute top-[70px] left-[180px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute top-[70px] right-[180px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute bottom-[100px] left-[50px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute bottom-[100px] right-[50px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute bottom-[40px] left-[120px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute bottom-[50px] right-[120px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+      </div>
       </div>
     </footer>
     <script src="/js/index.js"></script>

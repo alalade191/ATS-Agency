@@ -29,7 +29,9 @@
           <li><a href="/pages/abouts-us.html">About</a></li>
           <li><a href="/pages/portfolio.html">Work</a></li>
           <li><a href="/pages/blog.html">News</a></li>
-          <li class="pr-[24px]"><a href="/pages/contact-us.html">Contacts</a></li>
+          <li class="pr-[24px]">
+            <a href="/pages/contact-us.html">Contacts</a>
+          </li>
         </ul>
       </nav>
       <div id="hamburger" class="w-[40px] h-[40px]">
@@ -47,22 +49,35 @@
     id="mobile-nav"
     class="lg:hidden w-full h-screen fixed top-0 right-0 left-[-100%] backdrop-blur-md duration-500 bg-backg/50"
   >
-    <span
-      id="close-btn"
-      class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black fixed top-[20px] right-[20px] p-2"
-    ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-    </svg>
-    </span>
     <div
       class="w-[250px] h-full backdrop-blur-md bg-black/50 p-6 flex flex-col space-y-[50px]"
     >
-      <div class="text-clear w-[80px] lg:w-[100px]">
-        <img
-          src="/assets/images/logo.png"
-          alt="logo"
-          class="w-full h-full"
-        />
+      <div class="flex items-center justify-between">
+        <div class="text-clear w-[80px] lg:w-[100px]">
+          <img
+            src="/assets/images/logo.png"
+            alt="logo"
+            class="w-full h-full"
+          />
+        </div>
+        <span
+          id="close-btn"
+          class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black top-absolute[20px] right-[20px] p-2"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="white"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </span>
       </div>
 
       <!-- Navigations -->
@@ -70,22 +85,31 @@
         <ul
           class="flex flex-col space-y-4 text-[15px] font-medium leading-[24px] text-dark font-syne"
         >
-          <li class="btn w-full bg-white text-black rounded-[10px]">
-            <a href="/index.html">Home</a>
+          <li>
+            <a
+              class="btn w-full bg-white text-black rounded-[10px]"
+              href="/index.html"
+              >Home</a
+            >
           </li>
-          <li class="btn w-full bg-white text-black rounded-[10px]">
-            <a href="/pages/abouts-us.html">About</a>
+          <li>
+            <a 
+            class="btn w-full bg-white text-black rounded-[10px]" href="/pages/abouts-us.html">About</a>
           </li>
-          <li class="btn w-full bg-white text-black rounded-[10px]">
-            <a href="/pages/portfolio.html">Work</a>
+
+          <li>
+            <a 
+            class="btn w-full bg-white text-black rounded-[10px]"
+             href="/pages/portfolio.html">Work</a>
           </li>
-          <li class="btn w-full bg-white text-black rounded-[10px]">
-            <a href="/pages/blog.html">News</a>
+          
+          <li>
+            <a 
+            class="btn w-full bg-white text-black rounded-[10px]" href="/pages/blog.html">News</a>
           </li>
-          <li
-            class="btn w-full bg-white text-black rounded-[10px] pr-[24px]"
-          >
-            <a href="/pages/contact-us.html">Contacts</a>
+          <li>
+            <a 
+            class="btn w-full bg-white text-black rounded-[10px] pr-[24px]" href="/pages/contact-us.html">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -432,41 +456,82 @@
       </div>
 
     </main>
-    <footer class="block w-full">
-        <div class="w-[95%] lg:w-[80%] mx-auto pt-[20px]">
-          <div
-            class="text-center py-6 flex flex-col items-center justify-center space-y-2"
+    <footer class="block w-full relative">
+      <div class="bg-black">
+        <div
+          class="w-[95%] lg:w-full mx-auto flex flex-col items-center justify-center space-y-6 py-[50px] lg:py-[100px]"
+        >
+          <h2 class="text-[20px] lg:text-[30px] text-white font-syne">
+            Never Miss a Single
+            <span
+              class="rounded-[4px] bg-white py-1 lg:py-2 px-2 lg:px-4 text-black"
+              >News</span
+            >
+          </h2>
+          <p
+            class="text-white max-w-[700px] text-center text-[14px] lg:text-[15px]"
           >
-            <p class="font-syne font-bold text-dark text-[14px]">
-              Let's start together.
-            </p>
-            <p class="font-syne font-bold text-grey text-[18px] lg:text-[20px]">
-              1-677-124-44227 // hello@softlight.design
-            </p>
-          </div>
-  
+            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+            eiusmod tempor incididunt ut labore et uis nostrud exercitation
+            ullamco laboris nisi.
+          </p>
           <div
-            class="flex flex-col lg:flex-row justify-between gap-[40px] border-y-[1px] border-greyc py-[20px]"
+            class="flex space-y-4 md:space-y-0 md:space-x-4 flex-col md:flex-row items-center md:items-start"
           >
-            <div class="w-[80px] lg:w-[100px]">
-              <img
-                src="/assets/images/soft.png"
-                alt="logo"
-                class="w-full h-ful"
+            <div class="input-container bg-white border-white">
+              <input
+                type="email"
+                placeholder="enter your email..."
+                class="input"
               />
             </div>
-  
-            <div
-              class="flex flex-col md:flex-row space-y-[40px] md:space-y-0 lg:space-y-0 md:space-x-[100px]"
-            >
-              <div class="flex space-x-[100px]">
-                <div class="flex flex-col space-y-2">
-                  <h3
-                    class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
-                  >
-                    Pages
-                  </h3>
-                  <ul
+            <div class="btn border-2 border-white">
+              <p>Subscribe</p>
+              <div class="w-[30px] h-[30px]">
+                <img
+                  src="/assets/icons/arrow.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[95%] lg:w-[80%] mx-auto pt-[20px]">
+        <div
+          class="text-center py-6 flex flex-col items-center justify-center space-y-2"
+        >
+          <p class="font-syne font-bold text-dark text-[14px]">
+            Let's start together.
+          </p>
+          <p class="font-syne font-bold text-grey text-[18px] lg:text-[20px]">
+            1-677-124-44227 // hello@softlight.design
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col lg:flex-row justify-between gap-[40px] border-y-[1px] border-greyc py-[20px]"
+        >
+          <div class="w-[80px] lg:w-[100px]">
+            <img
+              src="/assets/images/soft.png"
+              alt="logo"
+              class="w-full h-ful"
+            />
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row space-y-[40px] md:space-y-0 lg:space-y-0 md:space-x-[100px]"
+          >
+            <div class="flex space-x-[100px]">
+              <div class="flex flex-col space-y-2">
+                <h3
+                  class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
+                >
+                  Pages
+                </h3>
+                <ul
                   class="flex flex-col space-y-2 text-[14px] lg:text-[15px] font-syne font-medium text-dark cursor-pointer"
                 >
                   <li class=""><a href="/index.html">Home</a></li>
@@ -474,73 +539,109 @@
                   <li class=""><a href="/pages/portfolio.html">Work</a></li>
                   <li class=""><a href="/pages/pricing.html">Pricing</a></li>
                 </ul>
+              </div>
+              <div class="font-syne text-dark flex flex-col space-y-2">
+                <h3 class="font-bold text-[15px] lg:text-[16px]">Contact</h3>
+                <p class="text-[14px] lg:text-[15px] font-medium max-w-[200px]">
+                  741 New South Head Rd, Triple Bay SWFW 3148, New York
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col space-y-2">
+              <h3
+                class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
+              >
+                Newsletter
+              </h3>
+              <div class="flex space-x-4">
+                <div class="input-container bg-white border-white flex-1">
+                  <input
+                    type="email"
+                    placeholder="enter your email..."
+                    class="input w-full"
+                  />
                 </div>
-                <div class="font-syne text-dark flex flex-col space-y-2">
-                  <h3 class="font-bold text-[15px] lg:text-[16px]">Contact</h3>
-                  <p class="text-[14px] lg:text-[15px] font-medium max-w-[200px]">
-                    741 New South Head Rd, Triple Bay SWFW 3148, New York
-                  </p>
+                <div class="btn border-2 border-white">
+                  <span>Submit</span>
                 </div>
               </div>
-              <div class="flex flex-col space-y-2">
-                <h3
-                  class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
-                >
-                  Newsletter
-                </h3>
-                <div class="flex space-x-4">
-                  <div class="input-container bg-white border-white">
-                    <input
-                      type="email"
-                      placeholder="enter your email..."
-                      class="input"
-                    />
-                  </div>
-                  <div class="btn border-2 border-white">
-                    <span>Submit</span>
-                  </div>
+              <div class="flex space-x-[10px] items-center">
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Insta.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
                 </div>
-                <div class="flex space-x-[10px] items-center">
-                  <div class="w-[20px]">
-                    <img
-                      src="/assets/icons/Insta.png"
-                      alt="logo"
-                      class="w-full h-full"
-                    />
-                  </div>
-                  <div class="w-[20px]">
-                    <img
-                      src="/assets/icons/Fb.png"
-                      alt="logo"
-                      class="w-full h-full"
-                    />
-                  </div>
-                  <div class="w-[20px]">
-                    <img
-                      src="/assets/icons/Twiter.png"
-                      alt="logo"
-                      class="w-full h-full"
-                    />
-                  </div>
-                  <div class="w-[20px]">
-                    <img
-                      src="/assets/icons/In.png"
-                      alt="logo"
-                      class="w-full h-full"
-                    />
-                  </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Fb.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Twiter.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/In.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
                 </div>
               </div>
             </div>
           </div>
-  
-          <p
-            class="font-syne font-medium text-center text-dark py-4 text-[13px] lg:text-[14px]"
-          >
-            Copyright © Portlight | Designed by VictorFlow - Powered by Webflow.
-          </p>
         </div>
-      </footer>
+
+        <p
+          class="font-syne font-medium text-center text-dark py-4 text-[13px] lg:text-[14px]"
+        >
+          Copyright © Portlight | Designed by VictorFlow - Powered by Webflow.
+        </p>
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute top-[40px] left-[80px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute top-[50px] right-[80px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute top-[70px] left-[180px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute top-[70px] right-[180px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute bottom-[100px] left-[50px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute bottom-[100px] right-[50px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute bottom-[40px] left-[120px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute bottom-[50px] right-[120px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
       <script src="/js/index.js"></script>
 </body>
 </html>

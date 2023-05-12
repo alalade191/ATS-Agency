@@ -9,89 +9,108 @@
   </head>
   <body>
     <header
-    class="w-full border-b-[1px] max-h-[70px] lg:max-h-[100px] lg:border-none border-[#E9E9E9] fixed inset-0 z-[9999] backdrop-blur-md bg-backg/50"
-  >
-    <div
-      class="w-[95%] lg:w-[80%] mx-auto flex items-center justify-between py-[15px] lg:py-[30px] lg:border-b-[1px] border-[#E9E9E9]"
+      class="w-full border-b-[1px] max-h-[70px] lg:max-h-[100px] lg:border-none border-[#E9E9E9] fixed inset-0 z-[9999] backdrop-blur-md bg-backg/50"
     >
-      <div class="text-clear w-[80px] lg:w-[100px]">
-        <img src="/assets/images/logo.png" alt="logo" class="w-full h-full" />
-      </div>
-      <div class="flex items-center">
-        <nav class="hidden lg:block">
-          <ul
-            class="flex items-center space-x-[40px] text-[15px] font-medium leading-[24px] text-dark font-syne"
-          >
-            <li>
-              <img class="" src="/assets/images/hover.png" alt="" />
-            </li>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/pages/abouts-us.html">About</a></li>
-            <li><a href="/pages/portfolio.html">Work</a></li>
-            <li><a href="/pages/blog.html">News</a></li>
-            <li class="pr-[24px]"><a href="/pages/contact-us.html">Contacts</a></li>
-          </ul>
-        </nav>
-        <div id="hamburger" class="w-[40px] h-[40px]">
-          <img
-            class="h-full w-full"
-            src="/assets/images/menu_icon.png"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- Mobile Nav -->
-    <div
-      id="mobile-nav"
-      class="lg:hidden w-full h-screen fixed top-0 right-0 left-[-100%] backdrop-blur-md duration-500 bg-backg/50"
-    >
-      <span
-        id="close-btn"
-        class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black fixed top-[20px] right-[20px] p-2"
-      ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-      </svg>
-      </span>
       <div
-        class="w-[250px] h-full backdrop-blur-md bg-black/50 p-6 flex flex-col space-y-[50px]"
+        class="w-[95%] lg:w-[80%] mx-auto flex items-center justify-between py-[15px] lg:py-[30px] lg:border-b-[1px] border-[#E9E9E9]"
       >
         <div class="text-clear w-[80px] lg:w-[100px]">
-          <img
-            src="/assets/images/logo.png"
-            alt="logo"
-            class="w-full h-full"
-          />
+          <img src="/assets/images/logo.png" alt="logo" class="w-full h-full" />
         </div>
-
-        <!-- Navigations -->
-        <nav class="">
-          <ul
-            class="flex flex-col space-y-4 text-[15px] font-medium leading-[24px] text-dark font-syne"
-          >
-            <li class="btn w-full bg-white text-black rounded-[10px]">
-              <a href="/index.html">Home</a>
-            </li>
-            <li class="btn w-full bg-white text-black rounded-[10px]">
-              <a href="/pages/abouts-us.html">About</a>
-            </li>
-            <li class="btn w-full bg-white text-black rounded-[10px]">
-              <a href="/pages/portfolio.html">Work</a>
-            </li>
-            <li class="btn w-full bg-white text-black rounded-[10px]">
-              <a href="/pages/blog.html">News</a>
-            </li>
-            <li
-              class="btn w-full bg-white text-black rounded-[10px] pr-[24px]"
+        <div class="flex items-center">
+          <nav class="hidden lg:block">
+            <ul
+              class="flex items-center space-x-[40px] text-[15px] font-medium leading-[24px] text-dark font-syne"
             >
-              <a href="/pages/contact-us.html">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+              <li>
+                <img class="" src="/assets/images/hover.png" alt="" />
+              </li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/pages/abouts-us.html">About</a></li>
+              <li><a href="/pages/portfolio.html">Work</a></li>
+              <li><a href="/pages/blog.html">News</a></li>
+              <li class="pr-[24px]">
+                <a href="/pages/contact-us.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div id="hamburger" class="w-[40px] h-[40px]">
+            <img
+              class="h-full w-full"
+              src="/assets/images/menu_icon.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
-    </div>
-  </header>
+
+      <!-- Mobile Nav -->
+      <div
+        id="mobile-nav"
+        class="lg:hidden w-full h-screen fixed top-0 right-0 left-[-100%] backdrop-blur-md duration-500 bg-backg/50"
+      >
+        <div
+          class="w-[250px] h-full backdrop-blur-md bg-black/50 p-6 flex flex-col space-y-[50px]"
+        >
+          <div class="flex items-center justify-between">
+            <div class="text-clear w-[80px] lg:w-[100px]">
+              <img
+                src="/assets/images/logo.png"
+                alt="logo"
+                class="w-full h-full"
+              />
+            </div>
+            <span
+              id="close-btn"
+              class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black top-absolute[20px] right-[20px] p-2"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="white"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </span>
+          </div>
+
+          <!-- Navigations -->
+          <nav class="">
+            <ul
+              class="flex flex-col space-y-4 text-[15px] font-medium leading-[24px] text-dark font-syne"
+            >
+              <li>
+                <a
+                  class="btn w-full bg-white text-black rounded-[10px]"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="btn w-full bg-white text-black rounded-[10px]">
+                <a href="/pages/abouts-us.html">About</a>
+              </li>
+              <li class="btn w-full bg-white text-black rounded-[10px]">
+                <a href="/pages/portfolio.html">Work</a>
+              </li>
+              <li class="btn w-full bg-white text-black rounded-[10px]">
+                <a href="/pages/blog.html">News</a>
+              </li>
+              <li
+                class="btn w-full bg-white text-black rounded-[10px] pr-[24px]"
+              >
+                <a href="/pages/contact-us.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
     <main class="mt-[70px] lg:mt-[100px]">
       <section class="pb-[70px] pt-[40px]">
@@ -108,7 +127,7 @@
           <div class="btn">
             <a href="/index.html" class="btn">Got to Home</a>
             <div class="w-[30px] h-[30px]">
-             <img src="/assets/icons/arrow.png" alt="" class="w-full h-full">
+              <img src="/assets/icons/arrow.png" alt="" class="w-full h-full" />
             </div>
           </div>
         </div>
@@ -147,7 +166,11 @@
             <div class="btn border-2 border-white">
               <p>Subscribe</p>
               <div class="w-[30px] h-[30px]">
-                <img src="/assets/icons/arrow.png" alt="" class="w-full h-full">
+                <img
+                  src="/assets/icons/arrow.png"
+                  alt=""
+                  class="w-full h-full"
+                />
               </div>
             </div>
           </div>
@@ -209,11 +232,11 @@
                 Newsletter
               </h3>
               <div class="flex space-x-4">
-                <div class="input-container bg-white border-white">
+                <div class="input-container bg-white border-white flex-1">
                   <input
                     type="email"
                     placeholder="enter your email..."
-                    class="input"
+                    class="input w-full"
                   />
                 </div>
                 <div class="btn border-2 border-white">
@@ -225,7 +248,6 @@
                   <img
                     src="/assets/icons/Insta.png"
                     alt="logo"
-                    
                     class="w-full h-full"
                   />
                 </div>

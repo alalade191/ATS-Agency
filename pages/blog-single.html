@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Blog single</title>
+  </head>
+  <body>
+    <header
+    class="w-full border-b-[1px] max-h-[70px] lg:max-h-[100px] lg:border-none border-[#E9E9E9] fixed inset-0 z-[9999] backdrop-blur-md bg-backg/50"
+  >
+    <div
+      class="w-[95%] lg:w-[80%] mx-auto flex items-center justify-between py-[15px] lg:py-[30px] lg:border-b-[1px] border-[#E9E9E9]"
+    >
+      <div class="text-clear w-[80px] lg:w-[100px]">
+        <img src="/assets/images/logo.png" alt="logo" class="w-full h-full" />
+      </div>
+      <div class="flex items-center">
+        <nav class="hidden lg:block">
+          <ul
+            class="flex items-center space-x-[40px] text-[15px] font-medium leading-[24px] text-dark font-syne"
+          >
+            <li>
+              <img class="" src="/assets/images/hover.png" alt="" />
+            </li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/abouts-us.html">About</a></li>
+            <li><a href="/pages/portfolio.html">Work</a></li>
+            <li><a href="/pages/blog.html">News</a></li>
+            <li class="pr-[24px]"><a href="/pages/contact-us.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger" class="w-[40px] h-[40px]">
+          <img
+            class="h-full w-full"
+            src="/assets/images/menu_icon.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div
+      id="mobile-nav"
+      class="lg:hidden w-full h-screen fixed top-0 right-0 left-[-100%] backdrop-blur-md duration-500 bg-backg/50"
+    >
+      <span
+        id="close-btn"
+        class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black fixed top-[20px] right-[20px] p-2"
+      ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+      </span>
+      <div
+        class="w-[250px] h-full backdrop-blur-md bg-black/50 p-6 flex flex-col space-y-[50px]"
+      >
+        <div class="text-clear w-[80px] lg:w-[100px]">
+          <img
+            src="/assets/images/logo.png"
+            alt="logo"
+            class="w-full h-full"
+          />
+        </div>
+
+        <!-- Navigations -->
+        <nav class="">
+          <ul
+            class="flex flex-col space-y-4 text-[15px] font-medium leading-[24px] text-dark font-syne"
+          >
+            <li class="btn w-full bg-white text-black rounded-[10px]">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="btn w-full bg-white text-black rounded-[10px]">
+              <a href="/pages/abouts-us.html">About</a>
+            </li>
+            <li class="btn w-full bg-white text-black rounded-[10px]">
+              <a href="/pages/portfolio.html">Work</a>
+            </li>
+            <li class="btn w-full bg-white text-black rounded-[10px]">
+              <a href="/pages/blog.html">News</a>
+            </li>
+            <li
+              class="btn w-full bg-white text-black rounded-[10px] pr-[24px]"
+            >
+              <a href="/pages/contact-us.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+    <main class="mt-[70px] lg:mt-[100px]">
+      <section class="w-[95%] lg:w-[80%] mx-auto">
+        <div>
+          <div class="flex flex-col pt-[30px] pb-[25px]">
+            <div class="flex flex-col space-y-[20px]">
+              <div class="flex items-center space-x-[15px]">
+                <p class="font-nunito font-normal text-[12px]">
+                  Posted on December 31, 2021 Business
+                </p>
+                <div class="border-b-[2px] border-grey h-[5px] flex-1"></div>
+              </div>
+
+              <h5 class="font-syne font-medium lg:text-[35px] text-[20px] text-center lg:text-start lg:max-w-[650px] max-w-[700px]">
+                How To Keep The Motivation Up When There Is No Client Work
+              </h5>
+            </div>
+            <div class="py-[20px]">
+              <div class=" h-[300px] w-full lg:h-[500px] pb-[20px]">
+                <img
+                  src="/assets/images/blog_1.png"
+                  alt="motivate"
+                  class="w-full h-full"
+                />
+              </div>
+
+              <div class="border-b-[2px] border-x-2 border-dark py-[20px]">
+                <div class="lg:w-[80%] w-full px-3 lg:px-0 mx-auto flex justify-between items-center">
+                  <div class="flex items-center space-x-[10px]">
+                    <div class="lg:w-[60px] lg:h-[60px] w-[50px] h-[50px] rounded-full overflow-hidden">
+                      <img
+                        src="/assets/images/eddie.png"
+                        alt="Eddie"
+                        class="w-full h-full"
+                      />
+                    </div>
+                    <div>
+                      <h5 class="font-syne font-medium lg:text-[20px] text-[15px] text-dark">
+                        Eddie Hirthe
+                      </h5>
+                      <p class="font-nunito font-normal text-[12px] text-dark">
+                        Client of Agency
+                      </p>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h5 class="font-syne font-medium lg:text-[20px] text-[15px] text-dark">
+                      Share Now:
+                    </h5>
+                    <div class="flex space-x-[10px] items-center">
+                      <div class="w-[20px]">
+                        <img
+                          src="/assets/icons/Insta.png"
+                          alt="logo"
+                          class="w-full h-full"
+                        />
+                      </div>
+                      <div class="w-[20px]">
+                        <img
+                          src="/assets/icons/Fb.png"
+                          alt="logo"
+                          class="w-full h-full"
+                        />
+                      </div>
+                      <div class="w-[20px]">
+                        <img
+                          src="/assets/icons/Twiter.png"
+                          alt="logo"
+                          class="w-full h-full"
+                        />
+                      </div>
+                      <div class="w-[20px]">
+                        <img
+                          src="/assets/icons/In.png"
+                          alt="logo"
+                          class="w-full h-full"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <section>
+            <div
+              class="lg:w-[550px] max-w-[550px] mx-auto flex flex-col space-y-[20px]"
+            >
+              <div class="flex flex-col space-y-[20px] items-center lg:items-start">
+                <p
+                  class="font-nunito font-normal text-[14px] text-grey lg:max-w-[550px] max-w-[300px]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  mollis ridiculus viverra nisi, eget egestas. Sed aliquet eu in
+                  risus elit morbi at lectus et enim aiondimentum volutpat
+                  feugiat gravida tortor, bibendum in. Vitae pharetra eu aliquet
+                  ut lorem.
+                </p>
+                <h3 class="font-syne font-bold lg:text-[25px] text-[20px]">
+                  How to choose the typography?
+                </h3>
+                <p
+                  class="font-nunito font-normal text-[14px] text-grey lg:max-w-[550px] max-w-[300px]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  mollis ridiculus viverra nisi, eget egestas. Sed aliquet eu in
+                  risus elit morbi at lectus et enim aiondimentum volutpat
+                  feugiat gravida tortor, bibendum in. Vitae pharetra eu aliquet
+                  ut lorem.
+                </p>
+              </div>
+              <div class="py-[20px] flex flex-col items-center lg:items-start">
+                <ul class="list-disc pl-[20px]">
+                  <li class="font-nunito font-normal text-[16px] text-grey">
+                    Nostrum facere repellendus minus quod
+                  </li>
+                  <li class="font-nunito font-normal text-[16px] text-grey">
+                    Aut aliquam neque reiciendis.
+                  </li>
+                  <li class="font-nunito font-normal text-[16px] text-grey">
+                    Qui beatae vel magnam repudiandae
+                  </li>
+                  <li class="font-nunito font-normal text-[16px] text-grey">
+                    Ipsum repellat repudiandae.
+                  </li>
+                </ul>
+              </div>
+              <div class="flex flex-col space-y-[20px] items-center lg:items-start">
+                <h3 class="font-syne font-bold lg:text-[25px] text-[20px] max-w-[400px] text-center lg:text-start lg:max-w-full">
+                  Make real time a wireframes service
+                </h3>
+                <p
+                  class="font-nunito font-normal text-[14px] text-grey lg:max-w-[550px] max-w-[300px]"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  mollis ridiculus viverra nisi, eget egestas. Sed aliquet eu in
+                  risus elit morbi at lectus et enim aiondimentum volutpat
+                  feugiat gravida tortor, bibendum in. Vitae pharetra eu aliquet
+                  ut lorem.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="lg:w-[550px] lg:max-w-[550px] mx-auto flex flex-col justify-center items-center pt-[20px]"
+            >
+              <div class="lg:w-[550px] lg:h-[250px]">
+                <img
+                  src="/assets/images/apple.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+
+              <div class="">
+                <div class="py-[20px] flex flex-col justify-center items-center lg:items-start">
+                  <h3 class="font-syne font-bold lg:text-[25px] text-[20px] text-dark">
+                    The creative digital product
+                  </h3>
+                  <p
+                    class="font-nunito font-normal text-[14px] lg:max-w-[550px] max-w-[300px] text-grey"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Cras mollis ridiculus viverra nisi, eget egestas. Sed
+                    aliquet eu in risus elit morbi at lectus et enim
+                    aiondimentum volutpat feugiat gravida tortor, bibendum in.
+                    Vitae pharetra eu aliquet ut lorem.
+                  </p>
+                </div>
+                <div class="flex flex-col items-center lg:items-start max-w-[300px] lg:max-w-full">
+                  <ul class="list-decimal pl-[20px] pb-[20px] ">
+                    <li class="font-nunito font-normal text-[16px] text-grey">
+                      Veniam quae. Nostrum facere repellendus minus
+                    </li>
+                    <li class="font-nunito font-normal text-[16px] text-grey">
+                      Quod aut aliquam neque reiciendis. magnam
+                    </li>
+                    <li class="font-nunito font-normal text-[16px] text-grey">
+                      Repudiandae ipsum repellat repudiandae.
+                    </li>
+                    <li class="font-nunito font-normal text-[16px] text-grey">
+                      Voluptate Dolores ut dolor sint occaecation similique.
+                    </li>
+                  </ul>
+                </div>
+            </div>
+
+            <div class="w-full flex justify-center lg:justify-start">
+              <div class="rounded-[100px] quote max-w-[350px]">
+                <div class="flex flex-col text-center p-[20px]">
+                 <div class="flex flex-col items-center">
+                  <div class="w-[50px]">
+                    <img
+                      src="/assets/icons/quote.png"
+                      alt=""
+                      class="h-full w-full"
+                    />
+                  </div>
+                  <div>
+                    <p
+                      class="font-nunito font-semibold italic text-white text-[13px] max-w-[280px]"
+                    >
+                      High-end digital experiences. Created at the heart of
+                      Manhattan, we are a should human team. The driving force
+                      of all speeches, we believe that creation should be the
+                      point around which any strategy revolves.
+                    </p>
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col py-[30px] space-y-[20px] max-w-[550px] mx-auto">
+            <p class="font-nunito font-normal text-[14px] text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ridiculus viverra nisi, feugiat gravida tortor, bibendum in. Vitae pharetra eu aliquet ut lorem.</p>
+            <p class="font-nunito font-normal text-[14px] text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ridiculus viverra nisi, eget egestas. Sed aliquet eu in risus elit morbi at lectus et enim aiondimentum volutpat feugiat gravida tortor, bibendum in. Vitae pharetra eu aliquet ut lorem.</p>
+            </div>
+
+            <div class="w-full flex justify-around lg:justify-start space-x-[10px] border-y-2 border-[#F4F2F0] py-[10px]">
+                <div class="btn">
+                    <p class="font-nunito font-normal text-[12px]">Design</p>
+                </div>
+                <div class="btn-grey">
+                    <p class="font-nunito font-normal text-[12px]">Technology</p>
+                </div>
+                <div class="btn-grey">
+                    <p class="font-nunito font-normal text-[12px]">website</p>
+                </div>
+            </div>
+
+            <div class="w-full mx-auto py-[25px]">
+                 <div class="bg-dark flex items-center max-w-[550px] p-[15px] rounded space-x-[15px]">
+                 <div class="w-[80px] h-fit rounded-full overflow-hidden">
+                   <img src="/assets/images/eddie.png" alt="" class="w-full h-full">
+                 </div>
+                 <div class="flex flex-col">
+                    <h6 class="font-syne font-medium text-white text-[13px]">Megan Olson</h6>
+                    <p class="font-nunito font-medium text-white text-[10px]">Client of Agency</p>
+                    <p class="font-nunito font-medium text-white text-[12px] max-w-[340px] py-[10px]">“ Lorem ipsum dolor consectetur adipiscing elitlacus laoreet donec adipiscing tristique risus. amet est placerat in egestas sed euismod nisi ut lorem. “</p>
+                    <div class="flex items-center space-x-[10px]">
+                        <div class="w-[20px]">
+                            <img src="/assets/icons/Insta-white.png" alt="" class="w-full h-full">
+                        </div>
+                        <div class="w-[20px]">
+                            <img src="/assets/icons/Fb-white.png" alt="" class="w-full h-full">
+                        </div>
+                        <div class="w-[20px]">
+                            <img src="/assets/icons/Twiter-white.png" alt="" class="w-full h-full">
+                        </div>
+                        <div class="w-[20px]">
+                            <img src="/assets/icons/In-white.png" alt="" class="w-full h-full">
+                        </div>
+                    </div>
+                 </div>
+                 </div>
+            </div>
+
+            <section class="w-full lg:max-w-[550px] mx-auto flex pt-[15px] pb-[100px]">
+                <div class="">
+                  <div>
+                    <h2 class="font-syne font-semibold text-[28px] pb-[15px]">Leave a Comments</h2>
+                  </div>
+                  <div class="flex flex-col space-y-[25px]">
+                    <div class="flex flex-col lg:flex-row  lg:space-x-[20px] space-y-[20px] lg:space-y-0">
+                      <div class="flex flex-col space-y-[15px]">
+                        <label class="font-syne font-semibold text-[15px]"
+                          >Full name *</label
+                        >
+                        <div class="input-container w-full lg:fit">
+                          <input type="text" placeholder="john david" class="input" />
+                        </div>
+                      </div>
+        
+                      <div class="flex flex-col space-y-[15px]">
+                        <label class="font-syne font-semibold text-[15px]"
+                          >Your email *</label
+                        >
+                        <div class="input-container w-full lg:fit">
+                          <input
+                            type="mail"
+                            placeholder="example@yourmail.com"
+                            class="input"
+                          />
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="flex flex-col space-y-[15px]">
+                        <label class="font-syne font-semibold text-[15px]">Website *</label>
+                        <div class="input-container w-full">
+                            <input type="text" placeholder="your website address here" class="input w-full">
+                        </div>
+                    </div>
+        
+                    <div>
+                        <label class="font-syne font-semibold text-[15px]">Message *</label>
+                        <div class="text-area-container">
+                            <textarea cols="30" rows="5" placeholder="Hello there,I would like to talk about how to..." class="text-area"></textarea>
+                        </div>
+                    </div>
+                      
+                    <div class="max-w-[550px] flex space-x-[5px]">
+                        <input type="checkbox">
+                        <p class="font-nunito font-normal text-[14px] text-grey max-w-[500px]">Save my name, email, and website in this browser for the next time I comment.</p>
+                    </div>
+                    <div class="btn">
+                        <p class="font-nunito font-semibold text-[12px]">Post Comment</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer class="block w-full">
+      <div class="bg-black">
+        <div
+          class="w-[95%] lg:w-full mx-auto flex flex-col items-center justify-center space-y-6 py-[50px] lg:py-[100px]"
+        >
+          <h2 class="text-[20px] lg:text-[30px] text-white font-syne">
+            Never Miss a Single
+            <span
+              class="rounded-[4px] bg-white py-1 lg:py-2 px-2 lg:px-4 text-black"
+              >News</span
+            >
+          </h2>
+          <p
+            class="text-white max-w-[700px] text-center text-[14px] lg:text-[15px]"
+          >
+            Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
+            eiusmod tempor incididunt ut labore et uis nostrud exercitation
+            ullamco laboris nisi.
+          </p>
+          <div
+            class="flex space-y-4 md:space-y-0 md:space-x-4 flex-col md:flex-row items-center md:items-start"
+          >
+            <div class="input-container bg-white border-white">
+              <input
+                type="email"
+                placeholder="enter your email..."
+                class="input"
+              />
+            </div>
+            <div class="btn border-2 border-white">
+              <span>Submit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-[95%] lg:w-[80%] mx-auto pt-[20px]">
+        <div
+          class="text-center py-6 flex flex-col items-center justify-center space-y-2"
+        >
+          <p class="font-syne font-bold text-dark text-[14px]">
+            Let's start together.
+          </p>
+          <p class="font-syne font-bold text-grey text-[18px] lg:text-[20px]">
+            1-677-124-44227 // hello@softlight.design
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col lg:flex-row justify-between gap-[40px] border-y-[1px] border-greyc py-[20px]"
+        >
+          <div class="w-[80px] lg:w-[100px]">
+            <img
+              src="/assets/images/soft.png"
+              alt="logo"
+              class="w-full h-ful"
+            />
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row space-y-[40px] md:space-y-0 lg:space-y-0 md:space-x-[100px]"
+          >
+            <div class="flex space-x-[100px]">
+              <div class="flex flex-col space-y-2">
+                <h3
+                  class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
+                >
+                  Pages
+                </h3>
+                <ul
+                  class="flex flex-col space-y-2 text-[14px] lg:text-[15px] font-syne font-medium text-dark cursor-pointer"
+                >
+                  <li class=""><a href="/index.html">Home</a></li>
+                  <li class=""><a href="/pages/abouts-us.html">About</a></li>
+                  <li class=""><a href="/pages/portfolio.html">Work</a></li>
+                  <li class=""><a href="/pages/pricing.html">Pricing</a></li>
+                </ul>
+              </div>
+              <div class="font-syne text-dark flex flex-col space-y-2">
+                <h3 class="font-bold text-[15px] lg:text-[16px]">Contact</h3>
+                <p class="text-[14px] lg:text-[15px] font-medium max-w-[200px]">
+                  741 New South Head Rd, Triple Bay SWFW 3148, New York
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col space-y-2">
+              <h3
+                class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
+              >
+                Newsletter
+              </h3>
+              <div class="flex space-x-4">
+                <div class="input-container bg-white border-white">
+                  <input
+                    type="email"
+                    placeholder="enter your email..."
+                    class="input"
+                  />
+                </div>
+                <div class="btn border-2 border-white">
+                  <span>Submit</span>
+                </div>
+              </div>
+              <div class="flex space-x-[10px] items-center">
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Insta.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Fb.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Twiter.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/In.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p
+          class="font-syne font-medium text-center text-dark py-4 text-[13px] lg:text-[14px]"
+        >
+          Copyright © Portlight | Designed by VictorFlow - Powered by Webflow.
+        </p>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

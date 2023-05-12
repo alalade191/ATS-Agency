@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-single</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <header
+    class="w-full border-b-[1px] max-h-[70px] lg:max-h-[100px] lg:border-none border-[#E9E9E9] fixed inset-0 z-[9999] backdrop-blur-md bg-backg/50"
+  >
+    <div
+      class="w-[95%] lg:w-[80%] mx-auto flex items-center justify-between py-[15px] lg:py-[30px] lg:border-b-[1px] border-[#E9E9E9]"
+    >
+      <div class="text-clear w-[80px] lg:w-[100px]">
+        <img src="/assets/images/logo.png" alt="logo" class="w-full h-full" />
+      </div>
+      <div class="flex items-center">
+        <nav class="hidden lg:block">
+          <ul
+            class="flex items-center space-x-[40px] text-[15px] font-medium leading-[24px] text-dark font-syne"
+          >
+            <li>
+              <img class="" src="/assets/images/hover.png" alt="" />
+            </li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/abouts-us.html">About</a></li>
+            <li><a href="/pages/portfolio.html">Work</a></li>
+            <li><a href="/pages/blog.html">News</a></li>
+            <li class="pr-[24px]"><a href="/pages/contact-us.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <div id="hamburger" class="w-[40px] h-[40px]">
+          <img
+            class="h-full w-full"
+            src="/assets/images/menu_icon.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div
+      id="mobile-nav"
+      class="lg:hidden w-full h-screen fixed top-0 right-0 left-[-100%] backdrop-blur-md duration-500 bg-backg/50"
+    >
+      <span
+        id="close-btn"
+        class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black fixed top-[20px] right-[20px] p-2"
+      ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+      </span>
+      <div
+        class="w-[250px] h-full backdrop-blur-md bg-black/50 p-6 flex flex-col space-y-[50px]"
+      >
+        <div class="text-clear w-[80px] lg:w-[100px]">
+          <img
+            src="/assets/images/logo.png"
+            alt="logo"
+            class="w-full h-full"
+          />
+        </div>
+
+        <!-- Navigations -->
+        <nav class="">
+          <ul
+            class="flex flex-col space-y-4 text-[15px] font-medium leading-[24px] text-dark font-syne"
+          >
+            <li class="btn w-full bg-white text-black rounded-[10px]">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="btn w-full bg-white text-black rounded-[10px]">
+              <a href="/pages/abouts-us.html">About</a>
+            </li>
+            <li class="btn w-full bg-white text-black rounded-[10px]">
+              <a href="/pages/portfolio.html">Work</a>
+            </li>
+            <li class="btn w-full bg-white text-black rounded-[10px]">
+              <a href="/pages/blog.html">News</a>
+            </li>
+            <li
+              class="btn w-full bg-white text-black rounded-[10px] pr-[24px]"
+            >
+              <a href="/pages/contact-us.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+    <main class="mx-auto mt-[70px] lg:mt-[100px]">
+      <section class="pt-[40px]">
+        <div>
+          <div class="w-[95%] lg:w-[80%] mx-auto h-[350px] hidden lg:block">
+            <img
+              src="/assets/images//background.png"
+              alt=""
+              class="w-full h-full object-fill"
+            />
+          </div>
+           <!-- start -->
+          <div class="w-[95%] lg:w-[80%] mx-auto lg:mt-[-350px]">
+            <div
+              class="flex flex-col space-y-[10px] pt-[30px] pb-[20px] justify-center items-center text-center"
+            >
+              <h3 class="font-syne font-bold text-[40px] stroke">
+                Website Design
+              </h3>
+              <p class="font-syne font-medium text-[15px]">Web Design</p>
+            </div>
+            <div
+              class="w-full flex justify-center items-center mx-auto"
+            >
+              <img
+                src="/assets/images/web_image.png"
+                alt=""
+                class="w-full h-full object-fill"
+              />
+            </div>
+            <div class="flex flex-col lg:flex-row border-[2px] border-gradient justify-between items-center lg:p-[30px] space-y-[20px] text-center">
+                <div class="lg:border-r-[2px] border-b-[2px] lg:border-b-0 border-gradient lg:pr-[70px] pb-3">
+                    <h5 class="font-syne font-medium text-[20px]">Zoe Stewart</h5>
+                    <p class="font-nunito font-medium text-[14px] text-grey">Client</p>
+                  </div>
+                  <div class="lg:border-r-[2px] border-b-[2px] lg:border-b-0 border-gradient lg:pr-[70px] pb-3">
+                    <h5 class="font-syne font-medium text-[20px]">Services</h5>
+                    <p class="font-nunito font-medium text-[14px] text-grey">Web Design</p>
+                  </div>
+                  <div class="lg:border-r-[2px] border-b-[2px] lg:border-b-0 border-gradient lg:pr-[70px] pb-3">
+                    <h5 class="font-syne font-medium text-[20px]">16.12.2023</h5>
+                    <p class="font-nunito font-medium text-[14px] text-grey">Date</p>
+                  </div>
+                  <div class="pb-[20px]">
+                    <h5 class="font-syne font-medium text-[20px] underline">Live Link</h5>
+                    <p class="font-nunito font-medium text-[14px] text-greyc">Website</p>
+                  </div>
+            </div>
+          </div>
+            <!-- end -->
+          <section class="py-[30px]">
+            <div class="lg:w-[500px] lg:max-w-[500px] mx-auto flex flex-col space-y-[20px]">
+                <div class="flex flex-col space-y-[20px] justify-center items-center lg:items-start text-center lg:text-start">
+                    <h3 class="font-syne font-bold text-[20px]">About the project</h3>
+                <p class="font-nunito font-normal text-[14px] text-grey w-[300px] lg:max-w-[500px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus vel hendrerit elementum. Morbi curabitur etiam nibh justo, lorem aliquet donec. Sed sit mi dignissim at ante massa mattis egestas.</p>
+                <p class="font-nunito font-normal text-[14px] text-grey w-[300px] lg:max-w-[500px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper lorem eu cursus vel hendrerit elementum. Morbi curabitur etiam nibh justo, lorem aliquet donec. </p>
+                </div>
+                <div class="py-[15px] flex flex-col items-center lg:items-start">
+                    <ol class="list-decimal pl-[20px]">
+                        <li class="font-nunito font-normal text-[14px] text-grey">Nostrum facere repellendus minus quod</li>
+                        <li class="font-nunito font-normal text-[14px] text-grey">Aut aliquam neque reiciendis.</li>
+                        <li class="font-nunito font-normal text-[14px] text-grey">Qui beatae vel magnam repudiandae</li>
+                        <li class="font-nunito font-normal text-[14px] text-grey">Ipsum repellat repudiandae.</li>
+                    </ol>
+                 </div>
+            </div>
+             
+             <div class="lg:w-[500px] lg:max-w-[500px] mx-auto flex flex-col justify-center items-center pt-[20px]">
+                <div class="w-[full] h-[250px]">
+                    <img src="/assets/images/gradient.png" alt="" class="w-full h-full">
+                </div>
+                <div class="">
+                    <div class="py-[20px] flex flex-col items-center text-center lg:items-start lg:text-start">
+                        <h3 class="font-syne font-bold text-[18px] max-w-[200px] lg:min-w-full text-dark">Make real time a work improvements</h3>
+                        <p class="font-nunito font-normal text-[14px] text-grey w-[300px] lg:w-[500px]">Lorem ipsum dolor sit amet, adipiscing praesent velit viverra sit semper lorem eu cursus vels hendrerit elementum. Morbi curabitur etiam nibh justo, lorem aliquet donec. Sed sit mi dignissim at ante massa mattis egestas.</p>
+                    </div>
+                    <div class="flex flex-col items-center lg:items-start">
+                        <ul class="list-disc pl-[20px] pb-[20px]">
+                            <li class="font-nunito font-normal text-[14px] text-grey">Veniam quae. Nostrum facere repellendus minus </li>
+                            <li class="font-nunito font-normal text-[14px] text-grey"> Quod aut aliquam neque reiciendis. magnam</li>
+                            <li class="font-nunito font-normal text-[14px] text-grey"> Repudiandae ipsum repellat repudiandae. </li>
+                            <li class="font-nunito font-normal text-[14px] text-grey">Voluptate Dolores ut dolor sint occaecation.</li>
+                        </ul>
+                        <p class="font-nunito font-normal text-[14px] text-grey w-[300px] lg:w-full">Lorem hendrerit elementum. Morbi curabitur etiam nibh justo, lorem aliquet donec. Sed sit mi dignissim at ante massa mattis egestas.</p>
+                    </div>
+                </div>
+             </div>
+          </section>
+
+          <section class="w-[95%] lg:w-[80%] mx-auto lg:py-[80px] py-[30px]">
+            <div class="text-center py-[20px]">
+                <h3 class="font-syne font-bold text-[22px] text-dark">Project <span class="bg-dark text-white">Gallery</span></h3>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 place-items-center">
+                <div class=" w-[350px] h-[350px] lg:w-[400px] lg:h-[400px]">
+                    <img src="/assets/images/gallery_1.png" alt="" class="w-full h-full">
+                </div>
+                <div class=" grid grid-cols-1 gap-y-3">
+                    <div class="w-[400px] h-[197px] hidden lg:block">
+                        <img src="/assets/images/gallery_2.png" alt="" class="w-full h-full">
+                    </div>
+                    <!-- mobile -->
+                    <div class="w-[350px] h-[350px] block lg:hidden">
+                      <img src="/assets/images/gallery_2.png" alt="" class="w-full h-full">
+                  </div>
+                    <!-- mobile -->
+                    <div class="w-[350px] h-[350px] block lg:hidden">
+                      <img src="/assets/images/gallery_3.png" alt="" class="w-full h-full">
+                  </div>
+
+                    <div class="w-[350px] h-[350px] lg:w-[400px] lg:h-[197px] hidden lg:block">
+                        <img src="/assets/images/gallery_3.png" alt="" class="w-full h-full">
+                    </div>
+                </div>
+                <div class="lg:w-[400px] lg:h-[400px] w-[350px] h-[350px]">
+                   <img src="/assets/images/gallery_4.png" alt="" class="w-full h-full">
+                </div>
+            </div>
+          </section>
+
+          <section class="bg-dark w-full">
+            <div class="w-[95%] lg:w-[80%] mx-auto lg:py-[100px] py-[50px]">
+                <div class="text-center flex flex-col lg:flex-row justify-between items-center space-y-2">
+                    <div class="font-syne font-bold text-[22px] text-white">
+                        <h3>More<span class="bg-white text-dark">Projects</span></h3> 
+                    </div>
+                    <div class="btn-border-white">
+                       <p class="font-nunito font-bold text-[12px]">Brows All Projects</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-[5px] pt-[20px] place-items-center"> 
+              <div>
+                <div class="lg:w-[400px] lg:h-[400px] w-[350px] h-[350px]">
+                    <img src="/assets/images/design.png" alt="" class="w-full h-full" />
+                </div>
+
+                <h5
+                  class="font-syne font-medium text-[20px] text-clear"
+                >
+                  Build Website
+            </h5>
+                <p
+                  class="font-nunito font-normal text-clear text-[14px]"
+                >
+                  Web Design
+                </p>
+              </div>
+
+              <div>
+                <div class="lg:w-[400px] lg:h-[400px] w-[350px] h-[350px]">
+                    <img src="/assets/images/build.png" alt="" class="w-full h-full"/>
+                </div>
+                
+                <h5
+                  class="font-syne font-medium text-[20px] text-clear"
+                >
+                  Design Strategy
+            </h5>
+                <p
+                  class="font-nunito font-normal text-clear text-[14px]"
+                >
+                  Web Design
+                </p>
+              </div>
+
+              <div>
+                <div class="lg:w-[400px] lg:h-[400px] w-[350px] h-[350px]">
+                    <img src="/assets/images/skull.png" alt="" class="w-full h-full"/>
+                </div>
+                
+                <h5
+                  class="font-syne font-medium text-[20px] text-clear"
+                >
+                  Design Strategy
+            </h5>
+                <p
+                  class="font-nunito font-normal text-clear text-[14px]"
+                >
+                  Web Design
+                </p>
+              </div>
+                </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer classw="block w-full">
+      <div class="w-[95%] lg:w-[80%] mx-auto pt-[20px]">
+        <div
+          class="text-center py-6 flex flex-col items-center justify-center space-y-2"
+        >
+          <p class="font-syne font-bold text-dark text-[14px]">
+            Let's start together.
+          </p>
+          <p class="font-syne font-bold text-grey text-[18px] lg:text-[20px]">
+            1-677-124-44227 // hello@softlight.design
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col lg:flex-row justify-between gap-[40px] border-y-[1px] border-greyc py-[20px]"
+        >
+          <div class="w-[80px] lg:w-[100px]">
+            <img
+              src="/assets/images/soft.png"
+              alt="logo"
+              class="w-full h-ful"
+            />
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row space-y-[40px] md:space-y-0 lg:space-y-0 md:space-x-[100px]"
+          >
+            <div class="flex space-x-[100px]">
+              <div class="flex flex-col space-y-2">
+                <h3
+                  class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
+                >
+                  Pages
+                </h3>
+                <ul
+                  class="flex flex-col space-y-2 text-[14px] lg:text-[15px] font-syne font-medium text-dark cursor-pointer"
+                >
+                  <li class=""><a href="/index.html">Home</a></li>
+                  <li class=""><a href="/pages/abouts-us.html">About</a></li>
+                  <li class=""><a href="/pages/portfolio.html">Work</a></li>
+                  <li class=""><a href="/pages/pricing.html">Pricing</a></li>
+                </ul>
+              </div>
+              <div class="font-syne text-dark flex flex-col space-y-2">
+                <h3 class="font-bold text-[15px] lg:text-[16px]">Contact</h3>
+                <p class="text-[14px] lg:text-[15px] font-medium max-w-[200px]">
+                  741 New South Head Rd, Triple Bay SWFW 3148, New York
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col space-y-2">
+              <h3
+                class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
+              >
+                Newsletter
+              </h3>
+              <div class="flex space-x-4">
+                <div class="input-container bg-white border-white">
+                  <input
+                    type="email"
+                    placeholder="enter your email..."
+                    class="input"
+                  />
+                </div>
+                <div class="btn border-2 border-white">
+                  <span>Submit</span>
+                </div>
+              </div>
+              <div class="flex space-x-[10px] items-center">
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Insta.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Fb.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Twiter.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/In.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p
+          class="font-syne font-medium text-center text-dark py-4 text-[13px] lg:text-[14px]"
+        >
+          Copyright © Portlight | Designed by VictorFlow - Powered by Webflow.
+        </p>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

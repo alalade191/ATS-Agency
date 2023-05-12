@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply w-fit bg-black text-white rounded-[40px] h-fit flex items-center justify-center space-x-3 px-[20px] py-[9px] font-syne text-[15px] font-medium cursor-pointer;
+  }
+  .btn-grey{
+    @apply w-fit bg-[#EFEFEF] text-grey rounded-[40px] h-fit flex items-center justify-center space-x-3 px-[20px] py-[9px] font-syne text-[15px] font-medium cursor-pointer;
+  }
+  .btn-white {
+    @apply w-fit bg-white text-dark rounded-[40px] h-fit flex items-center justify-center space-x-3 px-[20px] py-[9px] font-syne text-[15px] font-medium border-[2px] border-dark cursor-pointer;
+  }
+  .btn-border-white {
+    @apply w-fit bg-black text-white rounded-[40px] h-fit flex items-center justify-center space-x-3 px-[20px] py-[9px] font-syne text-[15px] font-medium border-[2px] border-white cursor-pointer;
+  }
+  .input-container {
+    @apply w-fit rounded-[40px] border-2 border-greyc px-6 py-[8px];
+  }
+  .input {
+    @apply bg-transparent outline-none;
+  }
+  .text-area-container {
+    @apply w-full rounded-[20px] border-2 border-greyc px-6 py-[8px];
+  }
+  .text-area {
+    @apply bg-transparent outline-none w-full;
+  }
+}
+
+.stroke {
+  /* color: "black"; */
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: "red";
+}
+
+.team {
+  background: linear-gradient(
+    90.49deg,
+    rgba(255, 255, 255, 0.04) 4.69%,
+    #f4f4f4 49.74%,
+    rgba(255, 255, 255, 0.08) 94.48%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.external h3 {
+  padding-bottom: 15px;
+}
+
+.quote{
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) -12.05%, rgba(3, 2, 17, 0.39) -4.4%, rgba(3, 2, 17, 0.55) 2.28%, rgba(3, 2, 17, 0.65) 10.07%, rgba(3, 2, 17, 0.71) 18.42%, rgba(3, 2, 17, 0.81) 25.93%, rgba(3, 2, 17, 0.95) 38.18%, #000000 53.34%, rgba(3, 2, 17, 0.99) 65.31%, rgba(3, 2, 17, 0.85) 73.8%, rgba(3, 2, 17, 0.78) 81.87%, rgba(3, 2, 17, 0.6) 90.78%, rgba(3, 2, 17, 0.41) 98.85%, rgba(3, 2, 17, 0.18) 104.27%, rgba(255, 255, 255, 0) 110.4%);
+}
+.grad{
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) -5.45%, #FFFFFF 49.93%, rgba(255, 255, 255, 0) 107.79%);
+}
+/* .slider {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0.45%,
+    #e6e6e6 49.56%,
+    rgba(230, 230, 230, 0) 99.49%
+  );
+  background-clip: text;
+  color: transparent;
+
+  border-color: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0.45%,
+    #e6e6e6 49.56%,
+    rgba(230, 230, 230, 0) 99.49%
+  );
+} */

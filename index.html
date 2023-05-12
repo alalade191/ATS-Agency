@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body class="bg-backg w-full mx-auto">
+    <!-- Header -->
+    <header
+      class="w-full border-b-[1px] max-h-[70px] lg:max-h-[100px] lg:border-none border-[#E9E9E9] fixed inset-0 z-[9999] backdrop-blur-md bg-backg/50"
+    >
+      <div
+        class="w-[95%] lg:w-[80%] mx-auto flex items-center justify-between py-[15px] lg:py-[30px] lg:border-b-[1px] border-[#E9E9E9]"
+      >
+        <div class="text-clear w-[80px] lg:w-[100px]">
+          <img src="/assets/images/logo.png" alt="logo" class="w-full h-full" />
+        </div>
+        <div class="flex items-center">
+          <nav class="hidden lg:block">
+            <ul
+              class="flex items-center space-x-[40px] text-[15px] font-medium leading-[24px] text-dark font-syne"
+            >
+              <li>
+                <img class="" src="/assets/images/hover.png" alt="" />
+              </li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/pages/abouts-us.html">About</a></li>
+              <li><a href="/pages/portfolio.html">Work</a></li>
+              <li><a href="/pages/blog.html">News</a></li>
+              <li class="pr-[24px]"><a href="/pages/contact-us.html">Contacts</a></li>
+            </ul>
+          </nav>
+          <div id="hamburger" class="w-[40px] h-[40px]">
+            <img
+              class="h-full w-full"
+              src="/assets/images/menu_icon.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div
+        id="mobile-nav"
+        class="lg:hidden w-full h-screen fixed top-0 right-0 left-[-100%] backdrop-blur-md duration-500 bg-backg/50"
+      >
+        <span
+          id="close-btn"
+          class="w-[30px] h-[30px] flex justify-center items-center rounded-full bg-black fixed top-[20px] right-[20px] p-2"
+        ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+        </span>
+        <div
+          class="w-[250px] h-full backdrop-blur-md bg-black/50 p-6 flex flex-col space-y-[50px]"
+        >
+          <div class="text-clear w-[80px] lg:w-[100px]">
+            <img
+              src="/assets/images/logo.png"
+              alt="logo"
+              class="w-full h-full"
+            />
+          </div>
+
+          <!-- Navigations -->
+          <nav class="">
+            <ul
+              class="flex flex-col space-y-4 text-[15px] font-medium leading-[24px] text-dark font-syne"
+            >
+              <li class="btn w-full bg-white text-black rounded-[10px]">
+                <a href="/index.html">Home</a>
+              </li>
+              <li class="btn w-full bg-white text-black rounded-[10px]">
+                <a href="/pages/abouts-us.html">About</a>
+              </li>
+              <li class="btn w-full bg-white text-black rounded-[10px]">
+                <a href="/pages/portfolio.html">Work</a>
+              </li>
+              <li class="btn w-full bg-white text-black rounded-[10px]">
+                <a href="/pages/blog.html">News</a>
+              </li>
+              <li
+                class="btn w-full bg-white text-black rounded-[10px] pr-[24px]"
+              >
+                <a href="/pages/contact-us.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="mt-[70px] lg:mt-[100px]">
+      <section class="py-[40px] w-[95%] lg:w-[80%] mx-auto">
+        <div
+          class="flex justify-center items-center lg:text-[84px] text-[40px]"
+        >
+          <h1 class="font-syne text-dark font-bold">Take it t</h1>
+          <div class="w-7 h-7">
+            <img
+              src="./assets/images/star_1.png"
+              alt=""
+              class="w-full h-full"
+            />
+          </div>
+        </div>
+
+        <div
+          class="font-syne text-dark font-bold flex justify-center items-center lg:text-[84px] text-[30px]"
+        >
+          <h2>the creative</h2>
+          <div class="lg:w-[90px] lg:h-[30px] w-[40px] h-[20px]">
+            <img src="./assets/images/Photo.png" alt="" class="w-full h-full" />
+          </div>
+          <h2>level</h2>
+        </div>
+
+        <p
+          class="font-nunito font-normal text-grey text-[15px] text-center max-w-[400px] pb-[30px] mx-auto"
+        >
+          High-end <span class="underline">digital experiences</span>. Created
+          at the heart of Manhattan, we are a human-sized team.
+        </p>
+        <div class="btn mx-auto">
+          <p class="font-nunito font-bold text-[7px] text-white">Say Hello</p>
+          <div class="w-6 h-6">
+            <img
+              src="./assets/images/white_bg.png"
+              alt=""
+              class="w-full h-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <marquee>
+          <div class="lg:w-[1000px] w-[600px] lg:h-[400px] h-[300px]">
+            <img
+              src="./assets/images/images.png"
+              alt=""
+              class="w-full h-full"
+            />
+          </div>
+        </marquee>
+
+        <div class="flex justify-center pt-10">
+          <div class="lg:w-[200px] lg:h-[200px] w-[150px] h-[150px]">
+            <img
+              src="./assets/images/scroll_down.png"
+              alt=""
+              class="w-full h-full"
+            />
+          </div>
+        </div>
+
+        <!-- What we do -->
+        <section
+          class="w-[95%] lg:w-[80%] mx-auto flex flex-col lg:flex-row items-center lg:items-start lg:justify-between pt-[70px]"
+        >
+          <div class="font-syne font-bold text-[20px] text-dark">
+            What <span class="text-white bg-dark px-[3px]">we do</span>
+          </div>
+          <div
+            class="font-nunito font-normal text-[15px] text-black flex flex-col justify-center space-y-[25px]"
+          >
+            <p class="max-w-[300px]">
+              High-end digital experiences. Created at the heart of Manhattan,we
+              are a should human team.
+            </p>
+            <p class="max-w-[300px]">
+              The driving force of all speeches, we believe that creation should
+              be the point around which any strategy revolves.
+            </p>
+            <div class="btn-white">
+              <p class="font-nunito text-dark font-bold">See Our Process</p>
+              <div class="w-6 h-6">
+                <img
+                  src="./assets/images/process.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Partner section -->
+      <section class="pt-[65px]">
+        <h5
+          class="font-syne font-bold text-[15px] tracking-[5px] text-center text-dark pb-[30px]"
+        >
+          WE PARTNER WITH FORWARD
+        </h5>
+        <section class="w-[95%] lg:w-[80%] mx-auto">
+          <div
+            class="flex flex-col lg:flex-row justify-between items-center space-y-[40px] lg:space-y-0 pb-[70px]"
+          >
+            <div class="w-[120px] lg:w-[120px]">
+              <img
+                src="/assets/images/studio.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-[120px] lg:w-[80px]">
+              <img
+                src="/assets/images/norto.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-[120px] lg:w-[120px]">
+              <img
+                src="/assets/images/points.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-[120px] lg:w-[120px]">
+              <img
+                src="/assets/images/outofthebox.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+            <div class="w-[120px] lg:w-[120px]">
+              <img src="/assets/images/brnd.png" alt="" class="w-full h-full" />
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Revenue section -->
+      <section class="bg-dark py-[60px]">
+        <h5
+          class="font-syne font-bold text-[20px] text-center text-white max-w-[400px] mx-auto py-[40px]"
+        >
+          Unlock Revenue Growth for
+          <span class="bg-clear text-dark px-2">Your Business</span>
+        </h5>
+        <section class="w-[95%] lg:w-[80%] mx-auto pb-[80px]">
+          <div
+            class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 flex-col lg:flex-row lg:justify-between lg:items-center space-y-[30px] lg:space-y-0 py-[40px] lg:py-0"
+          >
+            <div class="flex flex-col justify-center space-y-[15px]">
+              <p class="text-white font-syne font-medium text-[18px]">
+                Strategy
+              </p>
+              <div class="lg:w-[260px] lg:h-[260px] w-full h-full">
+                <img
+                  src="./assets/images/boxx.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+              <p
+                class="font-nunito font-normal text-[14px] text-white lg:max-w-[270px]"
+              >
+                High-end digital experiences.Created the heart Manhattan, we are
+                a should human team driving force.
+              </p>
+              <div class="w-[30px] h-[30px]">
+                <img
+                  src="./assets/images/button.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+            </div>
+            <!-- second -->
+            <div
+              class="flex flex-col justify-center space-y-[15px] place-self-center"
+            >
+              <p class="text-white font-syne font-medium text-[18px]">
+                Strategy
+              </p>
+              <div class="lg:w-[260px] lg:h-[260px] w-full h-full">
+                <img
+                  src="./assets/images/image_24.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+              <p
+                class="font-nunito font-normal text-[14px] text-white lg:max-w-[270px]"
+              >
+                High-end digital experiences.Created the heart Manhattan, we are
+                a should human team driving force.
+              </p>
+              <div class="w-[30px] h-[30px]">
+                <img
+                  src="./assets/images/button_white.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+            </div>
+            <!-- third -->
+            <div
+              class="flex flex-col justify-center space-y-[15px] place-self-end"
+            >
+              <p class="text-white font-syne font-medium text-[18px]">
+                Strategy
+              </p>
+              <div class="lg:w-[260px] lg:h-[260px] w-full h-full">
+                <img
+                  src="./assets/images/boxx.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+              <p
+                class="font-nunito font-normal text-[14px] text-white lg:max-w-[270px]"
+              >
+                High-end digital experiences.Created the heart Manhattan, we are
+                a should human team driving force.
+              </p>
+              <div class="w-[30px] h-[30px]">
+                <img
+                  src="./assets/images/button.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Text slider -->
+        <div class="border-y-[1px] border-greyc py-[40px]">
+          <marquee>
+            <h3
+              class="font-syne font-bold lg:text-[117px] text-[80px] leading-[140px] w-fit text-transparent bg-clip-text bg-gradient-to-r from-white/20 via-white to-white/20"
+            >
+              Build Your website with softlight Template Today.
+            </h3>
+          </marquee>
+        </div>
+      </section>
+
+      <section class="bg-dark mb-6">
+        <h3
+          class="font-syne font-bold text-[20px] text-center mx-auto max-w-[400px] text-white py-8"
+        >
+          We Work to Craft Solid Products &
+          <span class="text-dark bg-clear">Project</span> For You
+        </h3>
+
+        <div
+          class="flex flex-col items-center lg:flex-row justify-center lg:space-x-[100px] pt-[20px] lg:pb-[100px]"
+        >
+          <div class="flex flex-col space-y-[20px]">
+            <a href="/pages/portfolio-single.html">
+              <div class="relative">
+                <div class="w-[300px]">
+                  <img
+                    src="/assets/images/position.png"
+                    alt=""
+                    class="w-full h-full"
+                  />
+                </div>
+
+                <h5 class="font-syne font-medium text-clear text-[20px]">
+                  Website Design
+                </h5>
+                <p class="font-nunito font-normal text-clear text-[14px]">
+                  Web Design
+                </p>
+                <div
+                  class="absolute top-[4vw] right-[-24px] w-[70px] hidden lg:block"
+                >
+                  <img
+                    src="/assets/images/buttton_position.svg"
+                    alt=""
+                    class="w-full h-full"
+                  />
+                </div>
+              </div>
+            </a>
+
+            <a href="/pages/portfolio-single.html">
+              <div>
+                <div class="w-[300px]">
+                  <img
+                    src="/assets/images/design.png"
+                    alt=""
+                    class="w-full h-full"
+                  />
+                </div>
+
+                <h5 class="font-syne font-medium text-[20px] text-clear">
+                  Design Strategy
+                </h5>
+                <p class="font-nunito font-normal text-clear text-[14px]">
+                  Web Design
+                </p>
+              </div>
+            </a>
+
+            <a href="/pages/portfolio-single.html">
+              <div>
+                <div class="w-[300px]">
+                  <img
+                    src="/assets/images/build.png"
+                    alt=""
+                    class="w-full h-full"
+                  />
+                </div>
+
+                <h5 class="font-syne font-medium text-[20px] text-clear">
+                  Build Website
+                </h5>
+                <p class="font-nunito font-normal text-clear text-[14px]">
+                  Web Design
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="lg:pt-[80px] flex flex-col space-y-[20px] pb-[50px] lg:pb-0"
+          >
+            <a href="/pages/portfolio-single.html">
+              <div>
+                <div class="w-[300px]">
+                  <img
+                    src="/assets/images/brand.png"
+                    alt=""
+                    class="w-full h-full"
+                  />
+                </div>
+
+                <h5 class="font-syne font-medium text-[20px] text-clear">
+                  Branding Design
+                </h5>
+                <p class="font-nunito font-normal text-clear text-[14px]">
+                  Web Design
+                </p>
+              </div>
+            </a>
+
+            <a href="/pages/portfolio-single.html">
+              <div>
+                <div class="w-[300px]">
+                  <img
+                    src="/assets/images/different.png"
+                    alt=""
+                    class="w-full h-full"
+                  />
+                </div>
+                <h5 class="font-syne font-medium text-[20px] text-clear">
+                  Different Things
+                </h5>
+                <p class="font-nunito font-normal text-clear text-[14px]">
+                  Web Design
+                </p>
+              </div>
+            </a>
+
+            <a href="/pages/portfolio-single.html">
+              <div>
+                <div class="w-[200px]">
+                  <img
+                    src="/assets/images/project.png"
+                    alt=""
+                    class="w-full h-full"
+                  />
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Curve container  -->
+      <section class="w-[95%] lg:w-[80%] mx-auto py-[40px]">
+        
+        <div class="flex flex-col justify-center items-center">
+          <div class="border-x-2 border-b-2 border-greyc rounded p-[20px] text-center relative">
+            <div class="w-[30px] h-[30px] bg-backg border-greyc absolute bottom-[-15px] rotate-45 border-2 border-l-0 border-t-0 left-[50%] translate-x-[-50%]"></div>
+            <div class="w-[30px] h-[30px] mx-auto">
+              <img
+              src="./assets/images/quote.png"
+              alt=""
+            class="w-full h-full"/>
+            </div>
+            <p
+              class="font-nunito font-normal text-[15px] text-dark mx-auto max-w-[400px]"
+            >
+              High-end digital experiences.Created at the heart of Manhattan, we
+              are a should human team. The driving force of all speeches, we
+              believe that creation should be the point around which any strategy
+              revolves.
+            </p>
+          </div>
+        </div>
+      
+
+        <div class="flex mx-auto justify-center items-center space-x-[20px] mt-8">
+          <div class="w-[70px] h-[70%] rounded-[100%] overflow-hidden">
+            <img
+            src="./assets/images/block.png"
+            alt=""
+          class="w-full h-full"/>
+          </div>
+
+          <div class="w-[90px] h-[90px] rounded-[100%] overflow-hidden">
+            <img
+            src="./assets/images/aron.png"
+            alt=""
+          class="w-full h-full"/>
+          </div>
+
+          <div class="w-[70px] h-[70px] rounded-[100%] overflow-hidden">
+            <img
+            src="./assets/images/female.png"
+            alt=""
+          class="w-full h-full"/>
+          </div>
+        </div>
+        <div class="text-center pt-3">
+          <h3
+            class="font-syne font-medium leading-[36px] text-[clamp(11px,2vw,22px)] text-dark"
+          >
+            Aron Fernandez
+          </h3>
+          <p
+            class="font-nunito font-normal leading-[24px] text-[clamp(7px,1vw,13px)] text-dark"
+          >
+            Founder of Witechs.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col lg:flex-row items-center text-center justify-between py-[50px] border-b border-greyc"
+        >
+          <div class="flex flex-col">
+            <h3 class="font-syne font-bold text-[48px] stroke">
+              13<sup class="text-dark">+</sup>
+            </h3>
+            <p class="font-syne font-medium text-[14px] text-dark">
+              Years in Market
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="font-syne font-bold text-[48px] stroke">110</h3>
+            <p class="font-syne font-medium text-[14px] text-dark">
+              Project done
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="font-syne font-bold text-[48px] stroke">
+              99<sup class="text-dark">%</sup>
+            </h3>
+            <p class="font-syne font-medium text-[14px] text-dark">
+              Top Feedbak
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="font-syne font-bold text-[48px] stroke">
+              100<sup class="text-dark">+</sup>
+            </h3>
+            <p class="font-syne font-medium text-[14px] text-dark">
+              Cup of Coffee
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- blog section -->
+      <section class="w-[95%] lg:w-[80%] mx-auto pt-[40px] pb-[30px]">
+        <div class="font-syne font-bold text-[22px] text-dark pb-[40px]">
+          <h3 claas="">
+            Latest News & <span class="text-clear bg-dark px-2">Blogs</span>
+          </h3>
+        </div>
+        <section class="max-w-fit mx-auto flex flex-col relative">
+          <div class="flex items-center justify-center space-x-[36px]">
+            <p class="font-nunito font-normal text-[12px]">
+              Posted on December 31, 2021 Business
+            </p>
+            <div class="w-[200px]">
+              <img
+                src="./assets/images/line.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <div class="pt-[15px] pb-[20px]">
+            <p class="font-syne font-bold text-dark text-[15px] max-w-[300px]">
+              How To Keep The Motivation Up When There Is No Client Work
+            </p>
+          </div>
+          <div class="flex items-center justify-center space-x-[36px]">
+            <p class="font-nunito font-normal text-[12px]">
+              Posted on December 31, 2021 Business
+            </p>
+            <div class="w-[200px]">
+              <img
+                src="./assets/images/line.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <div class="pt-[15px] pb-[20px]">
+            <p class="font-syne font-bold text-grey text-[15px] max-w-[300px]">
+              JavaScript Algorithms And Data Structures Management
+            </p>
+          </div>
+          <div class="flex items-center justify-center space-x-[36px]">
+            <p class="font-nunito font-normal text-[12px]">
+              Posted on December 31, 2021 Business
+            </p>
+            <div class="w-[200px]">
+              <img
+                src="./assets/images/line.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <div class="pt-[15px]">
+            <p class="font-syne font-bold text-grey text-[15px] max-w-[300px]">
+              Winning Desing Tips And Strategies For App UI/UX Developers
+            </p>
+          </div>
+          <div
+            class="absolute top-[0px] lg:top-[-70px] right-[0px] lg:right-[-60px]"
+          >
+            <div class="w-[80px] lg:w-[230px]">
+              <img
+                src="./assets/images/female1.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+          <div class="flex justify-center items-center pt-[40px]">
+            <p class="font-nunito font-bold text-[15px] text-dark">
+              See All News
+            </p>
+            <div class="w-[10px] h-[10px]">
+              <img
+                src="./assets/images/arrow-r.png"
+                alt=""
+                class="w-full h-full"
+              />
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Team section -->
+      <section class="bg-dark lg:relative pb-[30px]">
+      <h2
+        class="font-syne font-bold text-[clamp(7rem,14vw,20.7rem)] text-center team relative"
+      >
+        Team
+      </h2>
+      <div class="py-[40px] flex flex-col w-fit space-y-[40px] mx-auto">
+        <div class="flex flex-col space-y-[40px] lg:space-y-0 lg:flex-row justify-between lg:items-center lg:w-[700px] w-full lg:absolute lg:top-[60px] lg:left-[500px]">
+          <div class="lg:w-[20%] w-[300px] h-[300px] lg:h-[20%]">
+            <img 
+            src="./assets/images/male2.png"
+            alt=""
+          class="w-full h-full"/>
+          </div>
+  
+          <div class="lg:w-[20%] w-[300px] h-[300px] lg:h-[20%]">
+            <img
+            src="./assets/images/female3.png"
+            alt=""
+           class="w-full h-full"/>
+          </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-between space-y-[40px] lg:space-y-0 lg:items-center lg:w-[700px] w-full lg:absolute lg:bottom-[140px] lg:left-[340px] pb-[40px]">
+          <div class="lg:w-[20%] w-[300px] h-[300px] lg:h-[20%]">
+            <img
+            src="./assets/images/male1.png"
+            alt=""
+          class="w-full h-full"/>
+          </div>
+          <div class="lg:w-[20%] w-[300px] h-[300px] lg:h-[20%]">
+            <img
+            src="./assets/images/male3.png"
+            alt=""
+          class="w-full h-full"/>
+          </div>
+        </div>
+        <div
+        class="btn-border-white font-nunito font-bold text-[12px] mx-auto"
+      >
+        <p class="">Meet Our Creative Professional</p>
+        <div class="w-[30px]">
+          <img src="./assets/images/white_bg.png" alt="" class="w-full h-full"/>
+        </div>
+      </div>
+      </div>
+      
+      <div class="hidden lg:block">
+        <div class="flex gap-[50px] absolute top-[7vw] left-[46vw]">
+          <img class="w-2" src="./assets/images/star_svw.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svb.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svb.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svw.svg" alt="" />
+        </div>
+  
+        <div class="flex gap-[50px] absolute top-[10vw] left-[47vw]">
+          <img class="w-2" src="./assets/images/star_svb.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svw.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svb.svg" alt="" />
+        </div>
+  
+        
+        <div class="flex gap-[50px] absolute top-[20vw] left-[33vw]">
+          <img class="w-2" src="./assets/images/star_svb.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svw.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svw.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svb.svg" alt="" />
+        </div>
+  
+        <div class="flex gap-[50px] absolute top-[23vw] left-[35vw]">
+          <img class="w-2" src="./assets/images/star_svb.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svw.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svw.svg" alt="" />
+          <img class="w-2" src="./assets/images/star_svb.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer class="block w-full relative">
+      <div class="w-[95%] lg:w-[80%] mx-auto pt-[20px]">
+        <div
+          class="text-center py-6 flex flex-col items-center justify-center space-y-2"
+        >
+          <p class="font-syne font-bold text-dark text-[14px]">
+            Let's start together.
+          </p>
+          <p class="font-syne font-bold text-grey text-[18px] lg:text-[20px]">
+            1-677-124-44227 // hello@softlight.design
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col lg:flex-row justify-between gap-[40px] border-y-[1px] border-greyc py-[20px]"
+        >
+          <div class="w-[80px] lg:w-[100px]">
+            <img
+              src="/assets/images/soft.png"
+              alt="logo"
+              class="w-full h-ful"
+            />
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row space-y-[40px] md:space-y-0 lg:space-y-0 md:space-x-[100px]"
+          >
+            <div class="flex space-x-[100px]">
+              <div class="flex flex-col space-y-2">
+                <h3
+                  class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
+                >
+                  Pages
+                </h3>
+                
+                <ul
+                class="flex flex-col space-y-2 text-[14px] lg:text-[15px] font-syne font-medium text-dark cursor-pointer"
+              >
+                <li class=""><a href="/index.html">Home</a></li>
+                <li class=""><a href="/pages/abouts-us.html">About</a></li>
+                <li class=""><a href="/pages/portfolio.html">Work</a></li>
+                <li class=""><a href="/pages/pricing.html">Pricing</a></li>
+              </ul>
+              </div>
+              <div class="font-syne text-dark flex flex-col space-y-2">
+                <h3 class="font-bold text-[15px] lg:text-[16px]">Contact</h3>
+                <p class="text-[14px] lg:text-[15px] font-medium max-w-[200px]">
+                  741 New South Head Rd, Triple Bay SWFW 3148, New York
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col space-y-2">
+              <h3
+                class="font-syne font-bold text-dark text-[15px] lg:text-[16px]"
+              >
+                Newsletter
+              </h3>
+              <div class="flex space-x-4">
+                <div class="input-container bg-white border-white">
+                  <input
+                    type="email"
+                    placeholder="enter your email..."
+                    class="input"
+                  />
+                </div>
+                <div class="btn border-2 border-white">
+                  <span>Submit</span>
+                </div>
+              </div>
+              <div class="flex space-x-[10px] items-center">
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Insta.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Fb.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/Twiter.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+                <div class="w-[20px]">
+                  <img
+                    src="/assets/icons/In.png"
+                    alt="logo"
+                    class="w-full h-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p
+          class="font-syne font-medium text-center text-dark py-4 text-[13px] lg:text-[14px]"
+        >
+          Copyright © Portlight | Designed by VictorFlow - Powered by Webflow.
+        </p>
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute top-[40px] left-[80px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute top-[50px] right-[80px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute top-[70px] left-[180px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute top-[70px] right-[180px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute bottom-[100px] left-[50px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute bottom-[100px] right-[50px]">
+            <img src="/assets/images/star_6_small.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+
+        <div class="">
+          <div class="w-[20px] h-[20px] absolute bottom-[40px] left-[120px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+          <div class="w-[15px] h-[15px] absolute bottom-[50px] right-[120px]">
+            <img src="/assets/images/star_6.png" alt="" class="w-full h-full">
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
